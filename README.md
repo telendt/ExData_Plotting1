@@ -2,7 +2,7 @@
 
 Please find instructions [here](/instructions/README.md).
 
-# Build instructions
+## Build instructions
 
 Assuming you have GNU Make installed:
 
@@ -15,9 +15,9 @@ Next, run the following command:
 
     for i in {1..4}; do Rscript plot$i.R; done
 
-# Code and plots
+## Code and plots
 
-## Plot 1
+### Plot 1
 
 ````R
 label <- "Global Active Power"
@@ -30,7 +30,7 @@ with(data,
 
 ![plot-1](plot1.png)
 
-## Plot 2
+### Plot 2
 
 ````R
 with(data, {
@@ -43,7 +43,7 @@ with(data, {
 
 ![plot-2](plot2.png)
 
-## Plot 3
+### Plot 3
 
 ````R
 with(data, {
@@ -65,7 +65,7 @@ with(data, {
 
 ![plot-3](plot3.png)
 
-## Plot 4
+### Plot 4
 
 ````R
 with(data, {
